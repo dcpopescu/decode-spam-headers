@@ -1,0 +1,114 @@
+Received: from BL1PR11MB6026.namprd11.prod.outlook.com (2603:10b6:208:391::8)
+ by LV2PR11MB6000.namprd11.prod.outlook.com with HTTPS; Fri, 4 Apr 2025
+ 14:07:13 +0000
+Received: from SA9PR13CA0081.namprd13.prod.outlook.com (2603:10b6:806:23::26)
+ by BL1PR11MB6026.namprd11.prod.outlook.com (2603:10b6:208:391::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8583.41; Fri, 4 Apr
+ 2025 14:07:07 +0000
+Received: from SA2PEPF00003F63.namprd04.prod.outlook.com
+ (2603:10b6:806:23:cafe::be) by SA9PR13CA0081.outlook.office365.com
+ (2603:10b6:806:23::26) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8632.10 via Frontend Transport; Fri,
+ 4 Apr 2025 14:07:07 +0000
+Authentication-Results: spf=pass (sender IP is 192.28.154.47)
+ smtp.mailfrom=bounce.divcom.com; dkim=pass (signature was verified)
+ header.d=seafoodsource.com;dkim=pass (signature was verified)
+ header.d=mktdns.com;dmarc=pass action=none
+ header.from=seafoodsource.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bounce.divcom.com
+ designates 192.28.154.47 as permitted sender)
+ receiver=protection.outlook.com; client-ip=192.28.154.47;
+ helo=bounce.divcom.com; pr=C
+Received: from bounce.divcom.com (192.28.154.47) by
+ SA2PEPF00003F63.mail.protection.outlook.com (10.167.248.38) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.8606.22 via Frontend Transport; Fri, 4 Apr 2025 14:07:06 +0000
+X-MSFBL: 9Iv5WcVemqPZj/h7ekGjjusMEe2+/uufo+z9UTAQzWo=|eyJiIjoiZHZwLTE5Mi0
+      yOC0xNTQtNDciLCJyIjoiYmNhcmlmaW9AZGl2Y29tLmNvbSIsInUiOiI3NTYtRld
+      KLTA2MTowOjcxNjc3OjE1MjQ3NzoyMTc2MDA6MTQ4NTgwOjk6MjM5MjU5NzozNjc
+      1MjAyMyIsImciOiJiZy1hYmQtNzUyIn0=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1743775626;
+      s=m2; d=seafoodsource.com; i=@seafoodsource.com;
+      h=List-Unsubscribe:List-Unsubscribe-Post:Content-Type:MIME-Version:Subject:To:From:Date;
+      bh=jUsRG5xjUJseuk/tc1NTpUJslSdvmz7+/AdJzVo+kBc=;
+      b=0Y6Bu2wz1f7PD31yCbrjb9MnFQCcE0VL6mvaIxXwIu42YUPcSlIxBbp3kGmsqP26
+      Mq6yGuwbtpAJA+1p/rDQmEp1I77N7ZmvQDa7rgZVNk4MlkNMMipPRwJny/+LhnYrQv5
+      ZQv4635uA2Ai7GrLd4YxPLURgnjOt6l9jyS2gnSRzOiR9QM4vBW5i7aO/7AueGAOIkF
+      JG/18DJ9vCNxooDTpgpgPJrWn0BuUIH3dAI0GWDT6h9zEFfgvOKRVaT+g+bejl/Rcpz
+      irhZ2vkMpkegCzmMsTgwpz+STuOA+k/B0vzjTbL3oIDdM37YCBVNVN/MMnSGwbxIjnX
+      IOiFBCliMA==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1743775626;
+      s=m1; d=mktdns.com; i=@mktdns.com;
+      h=List-Unsubscribe:List-Unsubscribe-Post:Content-Type:MIME-Version:Subject:To:From:Date;
+      bh=jUsRG5xjUJseuk/tc1NTpUJslSdvmz7+/AdJzVo+kBc=;
+      b=YOGzzc0OTmdeNcbOmD/r6zuKnQTe4BynNGp78zVcY0lI0goUVxRIimwvdjg2Bygi
+      iH3tOpncrP5ONflAeAweM5M1QiwnOOxBAvTrRtCGXvi/g3H3+UsbWBLNJwhjGZCFFw3
+      MkdU2jLtBj7bou9pVmmcFJmY2h3kE1/i2C9LJRgA=
+Date: Fri, 4 Apr 2025 09:07:06 -0500 (CDT)
+From: SeafoodSource <info@seafoodsource.com>
+Reply-To: info@seafoodsource.com
+To: bcarifio@divcom.com
+Message-ID: <1691605518.114175168.1743775626808@abmktmail-batch1b.marketo.org>
+Subject: Now Available: #SENA25 Conference Sessions On-Demand
+Content-Type: text/plain
+X-Binding: bg-abd-752
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://info.seafoodsource.com/u/NzU2LUZXSi0wNjEAAAGZoBkmM_pojaxAu5MwnpOO5J3CspIveVRuSPzUC2_gHfQ23KoXE4FeE9rFyl-NvsaySWA6uzo=?emailAddress=NzU2LUZXSi0wNjEAAAGZoBkmM2gdmz2-jB_pL4mCZbM1S5PKwNq7-njYxzm1htcpS7CnYyCkgRDSUuCltPshizKw>, <mailto:LJJHM2DHKVUF6ZS7HF4VSWSMMF2EKVTRPJSDGN2HM4ZTMMCQHA3VAMCIFVSXSTCVIJCDAPI=.2392597.148580.9@unsub-ab.mktomail.com>
+X-MarketoID: 756-FWJ-061:0:71677:152477:217600:148580:9:2392597:36752023
+X-PVIQ: mkto-756FWJ061-000001-000002-392597
+X-Mailfrom: 756-FWJ-061.0.2392597.0.0.148580.9.36752023@bounce.divcom.com
+X-MktArchive: false
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+Return-Path: 756-FWJ-061.0.2392597.0.0.148580.9.36752023@bounce.divcom.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 3629100f-8626-46e1-b9af-ddd8e35e52b4:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SA2PEPF00003F63:EE_|BL1PR11MB6026:EE_|LV2PR11MB6000:EE_
+X-MS-Office365-Filtering-Correlation-Id: ed5531a1-2da9-4c7d-f49b-08dd7381fbea
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-Microsoft-Antispam: BCL:0;ARA:13230040|69100299015|4022899009|1032899013|31052699007|39142699007|13003099007|8096899003|2066899003;
+X-Forefront-Antispam-Report: CIP:192.28.154.47;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:bounce.divcom.com;PTR:bounce.divcom.com;CAT:NONE;SFS:(13230040)(69100299015)(4022899009)(1032899013)(31052699007)(39142699007)(13003099007)(8096899003)(2066899003);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 Apr 2025 14:07:06.9370
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: ed5531a1-2da9-4c7d-f49b-08dd7381fbea
+X-MS-Exchange-CrossTenant-Id: 3629100f-8626-46e1-b9af-ddd8e35e52b4
+X-MS-Exchange-CrossTenant-AuthSource: SA2PEPF00003F63.namprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL1PR11MB6026
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:06.1785764
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8583.038
+X-Microsoft-Antispam-Mailbox-Delivery: ucf:1;jmr:0;auth:0;dest:C;OFR:CustomRules;ENG:(910005)(944506478)(944626604)(920097)(930097)(140003);
+X-Microsoft-Antispam-Message-Info: =?utf-8?B?M1Q2RVZKT2ZDRnYzZWZIUG4ybWFxWW4wZGE1NzhMZDVPZkI5K1JuUU9wK1BX?=
+ =?utf-8?B?aGdBbmFZV2JaN0NzWkdPeFl5NDdCUG55TXhqVzFuMnYvRmw2bnlKRXlpMHpY?=
+ =?utf-8?B?QkJ3QzBkbnFiZUJYcUd6NGZxZzVEeXdQVC9VQXBtRFpzOGs3SjB4VzA2UmhM?=
+ =?utf-8?B?NXF4Um9ObmJONXVnL2lLdExGTW1SVXhPWkJ4b1labVJwTzhQdXVnUEJZaXhs?=
+ =?utf-8?B?T2VOaVNCUU9lZThOMkkzRy9iMm5zeUdtRjVIRXRKc3ovU3NPaXQ3d21VaHc3?=
+ =?utf-8?B?cm93dTZYMkx2NUlIdGwzYjd1b1NmUEpaSHFrNHFOUFdlazgrYkJZRlNTMzJ6?=
+ =?utf-8?B?NmJUemRLOWZhZHZpM0UvZ2ZGdDZrRk1JZ0N0bks0VnIzQmxmdGtJYm1kUGoz?=
+ =?utf-8?B?UkQwdFEzeWM3Q2tXV2txdENBVHZENG5Wekk5K1MrQXFTcWJwYjZXMnNxN016?=
+ =?utf-8?B?QURlNUxYN3NGMnZ6dk5nUlJsbEFPa1JiR0g4OU9WODhZSjVSZDg5NXluOXdG?=
+ =?utf-8?B?Q3YvYUhnenVsb0d4U3FRLzllaThaemRvU0VwUkNwK2lJYWJUOVptRFE1Q2Zh?=
+ =?utf-8?B?TW5qekVoUFVQUmtNeEsvUi80eVNFNVBHbnc4WnVFNEg4VExrSlc0UXVBL0FT?=
+ =?utf-8?B?dE1kUGRwUjlhYUVLSG90S0ZIY0JmTjhuMjhHUC9WVmhRUndUZFcwTVJpYSs5?=
+ =?utf-8?B?dlRndGx3YnBpN2w3Sks2VHpDeWh4d2t4eWUvaTNDMnE3MHVaNCs0R3FtWVJG?=
+ =?utf-8?B?eERIMWJBR0xHNDd1UVhYOEpkM3E0VkpzNVBpeG96NnhEcGtIU2NSQ2M4NktV?=
+ =?utf-8?B?Q09LM3pZNlR1R2xpR2xKUjVML0llTzBNNWVjczdkYWdDZHltOEdLTHE4YnVq?=
+ =?utf-8?B?OVFTZGxSSWRuNFdqRkU5cUlEZnZHc25kYXJDTEY4TS9HNEJ3eXdlZk44bmly?=
+ =?utf-8?B?bW5MNmVpMlY0RmozVDBST1FFeTFjZHY0RlBZMGltTURkaVhFZ09QTk9QcmdX?=
+ =?utf-8?B?cTdBcEMxMERCT1REMlhVQnlHcmxMMGFMZ1Zib2ZwNUJORHRtdElTSkZsd3NE?=
+ =?utf-8?B?UnZ6Mlc4TXdtSHZjSVh4Ky9SMTIzbGhOV0xMbllHcFFGaC9JUHQvaU1MR0th?=
+ =?utf-8?B?T25wZW02czFXVHc4MUxKZzBrVy82cVlRaGdvblZkTDV4RGw4Vlk2bjdZK3Bp?=
+ =?utf-8?B?RkdpQWxLYUovbEQvTkl6ejJIM2RsNEpVNFUwNE5WMER4MGZFaVdDL0I4eWRJ?=
+ =?utf-8?B?ek8xNy9LREkxK3VVYUxMSlR3ZllpSDIzTnR2dWJrSWlmcjdtN2p5KzlDMTNU?=
+ =?utf-8?B?VXI4R0VRWkZZbTQxUTFTeks4OGxLbndkWGZHbWF6NlBUSSs1VVVkTFVBZ2xW?=
+ =?utf-8?B?MmdEYytXcjcwNFdJTnloYnQ1Vy84MDJMbmkvdW1yTm5xUExxbjlVZFM2RENN?=
+ =?utf-8?B?d2QwY243NjdqbmhZMGJBaklKeWJNanIzb2FiTWthc0U5azhMMEpneU1XVUZz?=
+ =?utf-8?B?NThlRHUvcldqcGJUaVN3Tk4xQ0U4UXVLVEZpZGZjWno1UDlubUVOT25aYTdJ?=
+ =?utf-8?B?OGdlRUtSZDdEekJqM0dqcUo1TUtzRTI2UnQ0RWN2Y25jMEEzMlZjbEE5NUpQ?=
+ =?utf-8?B?T0Nkcms0clZRdDQ2S2diUnhSRnMvem1ESUoyVU1raFZoS2V3ZDBQY2V0OTVu?=
+ =?utf-8?B?clREMEQ5YXkvME1WdFowWWtYZklHcTRtU0NTMURxVEdpRHlmZFhZanBCTU92?=
+ =?utf-8?Q?ZxDrfrzoBJhEuCRYpI=3D?=
+MIME-Version: 1.0
